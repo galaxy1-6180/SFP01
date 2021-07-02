@@ -1,0 +1,77 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+
+<body class="mobile">
+    <nav>
+        <div class="container nav-wrapper">
+            <div class="brand">
+                <span><strong>Special Force Project</strong></span>
+            </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-list">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a>
+                    <ul class="dropdown-list">
+                        <li><a href="#">SEO optimization</a></li>
+                        <li><a href="#">Digital marketing</a></li>
+                        <li><a href="#">Web development</a></li>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Software development</a></li>
+                        <li><a href="#">AI, ML and DL </a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><button class="btn">Login</button></li>
+            </ul>
+
+        </div>
+    </nav>
+    <br />
+    <hr />
+
+    <main>
+        <section class="header container">
+            <div>
+                <h1>Infinite Time Line</h1>
+                <h4>Time is not the same everywhere. It is either due to a relative velocity between them (special relativistic "kinetic" time dilation) or to a difference in gravitational potential between their locations (general relativistic gravitational time dilation). When unspecified, "time dilation" usually refers to the effect due to velocity.</h4>
+                <div>
+                    <button class="btn">What is time?</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="header container">
+            <div>
+                <h1>Life is Beautiful</h1>
+                <h4>“Learn to enjoy every minute of your life. Be happy now. Don’t wait for something outside of yourself to make you happy in the future. Think how really precious is the time you have to spend, whether it’s at work or with your family. Every minute should be enjoyed and savored.”
+Earl Nightingale</h4>
+                <div>
+                    <button class="btn1">What is Life?</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <br />
+    <hr />
+   <footer>
+        <span><strong>SFP&#169;2021</strong></span><br />
+        <span><bold>Terms Privacy Cookies</bold></sapn>
+    </footer>
+
+
+</body>
+
+{% endblock content %}
